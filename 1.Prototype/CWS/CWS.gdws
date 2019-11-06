@@ -4,12 +4,7 @@
 	NextCID = "2">
 	<OpenFiles
 		CID = "1"
-		LastActive = "1">
-		<File
-			FileID = "657C51CD-270B-4518-830A6A579AB9DCDB"
-			RootPath = "$Container"
-			RelativePathname = "Masters\TrangChu.gui"
-			ViewSettings = ""/>
+		LastActive = "14">
 		<File
 			FileID = "ECFD46B7-1E11-4873-9BC9E2DD86D664FC"
 			RootPath = "$Container"
@@ -74,6 +69,11 @@
 			FileID = "553638F3-6FA5-4DDD-91D4E2DDDDFC0A56"
 			RootPath = "$Container"
 			RelativePathname = "Util\TimKiemDonVi.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "657C51CD-270B-4518-830A6A579AB9DCDB"
+			RootPath = "$Container"
+			RelativePathname = "Masters\TrangChu.gui"
 			ViewSettings = ""/>
 	</OpenFiles>
 </Workspace>
