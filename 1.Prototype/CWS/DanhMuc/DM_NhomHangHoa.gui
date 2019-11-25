@@ -1279,8 +1279,8 @@
 		<Element
 			CID = "1457603207"
 			Type = "StoryboardMessageBox"
-			X = "330"
-			Y = "-262"
+			X = "311"
+			Y = "-257"
 			Width = "180"
 			Height = "75"
 			Flags = "0"
