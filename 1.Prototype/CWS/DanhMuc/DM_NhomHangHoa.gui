@@ -1269,8 +1269,8 @@
 		<Element
 			CID = "1457595110"
 			Type = "StoryboardCloseBox"
-			X = "559"
-			Y = "-226"
+			X = "541"
+			Y = "-199"
 			Width = "90"
 			Height = "30"
 			Flags = "3"
