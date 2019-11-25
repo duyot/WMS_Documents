@@ -1413,7 +1413,7 @@
 		<Element
 			CID = "1939943701"
 			Type = "Bitmap"
-			X = "956"
+			X = "955"
 			Y = "280"
 			Width = "16"
 			Height = "16"
@@ -1436,8 +1436,8 @@
 		<Element
 			CID = "983395565"
 			Type = "ComponentThumbnail"
-			X = "1124"
-			Y = "201"
+			X = "1117"
+			Y = "228"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -1499,7 +1499,7 @@
 		<Element
 			CID = "1573813157"
 			Type = "Bitmap"
-			X = "956"
+			X = "955"
 			Y = "307"
 			Width = "16"
 			Height = "16"
