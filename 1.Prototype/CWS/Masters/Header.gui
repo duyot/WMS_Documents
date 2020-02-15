@@ -44,7 +44,7 @@
 			Typeface = "Hemi Head 426"
 			FontAttributes = "0"
 			TextSize = "120"
-			Text = "CÔNG TY PHÁT TRIỂN PHẦN MỀM SMARTDATA&#13;&#10;HỆ THỐNG QUẢN LÝ KHO"
+			Text = "CÔNG TY TNHH LOGDEZ TECHNOLOGY&#13;&#10;HỆ THỐNG QUẢN LÝ KHO"
 			IsDisabled = "0"
 			IsHyperlink = "0"
 			Fill = "None"
@@ -118,7 +118,7 @@
 				Item = "Tiện ích"
 				ItemID = "19"/>
 			<MenuBarItem
-				Item = "Bán hàng"
+				Item = "Vận tải"
 				ItemID = "20"/>
 		</Element>
 		<Element
@@ -254,7 +254,7 @@
 			X = "113"
 			Y = "-151"
 			Width = "173"
-			Height = "36"
+			Height = "66"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -280,7 +280,7 @@
 			X = "595"
 			Y = "-266"
 			Width = "231"
-			Height = "96"
+			Height = "36"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -303,8 +303,8 @@
 		<Element
 			CID = "490762487"
 			Type = "Component"
-			X = "571"
-			Y = "-113"
+			X = "609"
+			Y = "-152"
 			Width = "180"
 			Height = "66"
 			Flags = "3"
@@ -337,7 +337,6 @@
 			UseDataTable = "0"
 			TableName = ""
 			BackgroundColour = "255,255,255,0,6"
-			FileID = "461F0234-F89C-42AB-9C78E78521BAA554"
 			RootPath = "$Container"
 			Filename = "Menu\menu.Tonkho.gui"
 			Background = "Transparent"
@@ -348,6 +347,32 @@
 			StepSizeHorz = "4"
 			StepSizeVert = "4"
 			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "680803985"
+			Type = "Component"
+			X = "639"
+			Y = "-71"
+			Width = "214"
+			Height = "96"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "2223586F-802F-4B71-B26D44AEF1E6E2AC"
+			RootPath = "$Container"
+			Filename = "Menu\menu.VanTai.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "0"
 			AllowDragScrolling = "0"
 			UseInertia = "0"
 			SnapScrolling = "0"
@@ -411,17 +436,6 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "490743266"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = "20"
-			SourceRefID = "647265493"
-			TargetRefID = "490762487"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
 			CID = "328075667"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
@@ -430,6 +444,17 @@
 			SourceSubItemID = "21"
 			SourceRefID = "647265493"
 			TargetRefID = "328087899"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "680807273"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = "20"
+			SourceRefID = "647265493"
+			TargetRefID = "680803985"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
