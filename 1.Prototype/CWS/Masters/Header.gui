@@ -96,7 +96,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			NextItemID = "22"
+			NextItemID = "23"
 			LeftMargin = "0"
 			Mirror = "0">
 			<MenuBarItem
@@ -118,8 +118,8 @@
 				Item = "Tiện ích"
 				ItemID = "19"/>
 			<MenuBarItem
-				Item = "Vận tải"
-				ItemID = "20"/>
+				Item = "Bán hàng"
+				ItemID = "22"/>
 		</Element>
 		<Element
 			CID = "1080379116"
@@ -279,7 +279,7 @@
 			Type = "Component"
 			X = "595"
 			Y = "-266"
-			Width = "231"
+			Width = "181"
 			Height = "36"
 			Flags = "3"
 			UseDataTable = "0"
@@ -306,7 +306,7 @@
 			X = "609"
 			Y = "-152"
 			Width = "180"
-			Height = "66"
+			Height = "96"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -337,6 +337,7 @@
 			UseDataTable = "0"
 			TableName = ""
 			BackgroundColour = "255,255,255,0,6"
+			FileID = "1109BB52-C271-4139-868D43B38DEA3EDB"
 			RootPath = "$Container"
 			Filename = "Menu\menu.Tonkho.gui"
 			Background = "Transparent"
@@ -347,32 +348,6 @@
 			StepSizeHorz = "4"
 			StepSizeVert = "4"
 			MaintainSize = "1"
-			AllowDragScrolling = "0"
-			UseInertia = "0"
-			SnapScrolling = "0"
-			AnimateSnapping = "0"/>
-		<Element
-			CID = "680803985"
-			Type = "Component"
-			X = "639"
-			Y = "-71"
-			Width = "214"
-			Height = "96"
-			Flags = "3"
-			UseDataTable = "0"
-			TableName = ""
-			BackgroundColour = "255,255,255,0,6"
-			FileID = "2223586F-802F-4B71-B26D44AEF1E6E2AC"
-			RootPath = "$Container"
-			Filename = "Menu\menu.VanTai.gui"
-			Background = "Transparent"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ScrollBarHorz = "Auto"
-			ScrollBarVert = "Auto"
-			StepSizeHorz = "4"
-			StepSizeVert = "4"
-			MaintainSize = "0"
 			AllowDragScrolling = "0"
 			UseInertia = "0"
 			SnapScrolling = "0"
@@ -447,14 +422,14 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "680807273"
+			CID = "1725260897"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
 			SubType = "ModalSelector"
-			SourceSubItemID = "20"
+			SourceSubItemID = "22"
 			SourceRefID = "647265493"
-			TargetRefID = "680803985"
+			TargetRefID = "490762487"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>

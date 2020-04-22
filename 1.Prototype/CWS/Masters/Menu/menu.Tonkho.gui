@@ -16,7 +16,7 @@
 			Type = "MenuPopup"
 			X = "-85"
 			Y = "33"
-			Width = "228"
+			Width = "205"
 			Height = "96"
 			Flags = "3"
 			UseDataTable = "0"
@@ -55,7 +55,7 @@
 			<MenuPopupItem
 				ItemID = "47"
 				Type = "CommandOption"
-				Item = "3. Cập nhật thông tin hàng hóa"
+				Item = "3. Cập nhật hàng hóa"
 				Hotkey = ""
 				IsDisabled = "0"/>
 			<MenuPopupItem
@@ -128,7 +128,7 @@
 			UseDataTable = "0"
 			TableName = ""
 			BackgroundColour = "255,255,255,0,6"
-			FileID = "D4CCBCD2-1D1A-4A06-B962B7BB256B15A2"
+			FileID = "37DDE75A-D968-474B-8CCC1B5003CA6C6D"
 			RootPath = "$Container"
 			Filename = "..\..\TienIch\CapNhatThongTin\1.0.CapNhat_List.gui"
 			Background = "Transparent"

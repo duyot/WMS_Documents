@@ -768,6 +768,7 @@
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
+			FileID = "1CAEEF97-E2E1-496F-B18EBECB4D89CDE9"
 			RootPath = "$Container"
 			Filename = "..\..\Images\DoanhSo.png"
 			Placement = "Stretch"
@@ -781,6 +782,103 @@
 			SliceRight = "0"
 			SliceTop = "0"
 			SliceBottom = "0"/>
+		<Element
+			CID = "1449864444"
+			Type = "StaticText"
+			X = "600"
+			Y = "151"
+			Width = "94"
+			Height = "24"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Người thực hiện"
+			IsDisabled = "0"
+			IsHyperlink = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "1449866165"
+			Type = "ComboBox"
+			X = "729"
+			Y = "153"
+			Width = "295"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "---Tất cả---"
+			IsDisabled = "0"
+			IsEditable = "0"
+			IsFlat = "0"
+			Mirror = "0"
+			CustomStyle = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "240,240,255,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "192,192,255,0,0"/>
+		<Element
+			CID = "1449853773"
+			Type = "ListBox"
+			X = "1098"
+			Y = "69"
+			Width = "295"
+			Height = "52"
+			Flags = "2"
+			UseDataTable = "0"
+			TableName = ""
+			TextColour = "0,0,0,0,9"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			NextItemID = "9"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			IsTransparent = "0"
+			HasBorder = "1"
+			AutoHeight = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			MaxVisibleItems = "20"
+			SortOption = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			DataItemContent = "">
+			<ListBoxItem
+				ItemID = "1"
+				Value = "---Tất cả---"
+				IsSelected = "0"/>
+			<ListBoxItem
+				ItemID = "5"
+				Value = "Nguyễn Văn A"
+				IsSelected = "0"/>
+			<ListBoxItem
+				ItemID = "2"
+				Value = "Trần Văn B"
+				IsSelected = "0"/>
+		</Element>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -894,6 +992,17 @@
 			TargetRefID = "1073817346"
 			ConLineWidth = "2"
 			ConLineColour = "128,128,128,0,0"/>
+		<Connection
+			CID = "1449858540"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "1449866165"
+			TargetRefID = "1449853773"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
 	<Groups
 		CID = "3">
@@ -902,11 +1011,7 @@
 			Elements = "1749485568"/>
 	</Groups>
 	<SelectionGroups
-		CID = "4">
-		<SelectionGroup
-			CID = "483604148"
-			Elements = "483617409,483603493"/>
-	</SelectionGroups>
+		CID = "4"/>
 	<Notes
 		CID = "5">
 		<Note

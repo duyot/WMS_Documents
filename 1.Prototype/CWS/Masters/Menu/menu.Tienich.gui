@@ -16,7 +16,7 @@
 			Type = "MenuPopup"
 			X = "-85"
 			Y = "33"
-			Width = "231"
+			Width = "181"
 			Height = "36"
 			Flags = "3"
 			UseDataTable = "0"
@@ -31,7 +31,7 @@
 			<MenuPopupItem
 				ItemID = "43"
 				Type = "CommandOption"
-				Item = "1. Xem giao dịch xuất/nhập kho"
+				Item = "1. Thông tin giao dịch"
 				Hotkey = ""
 				IsDisabled = "0"/>
 			<MenuPopupItem

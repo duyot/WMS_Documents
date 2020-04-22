@@ -17,14 +17,14 @@
 			X = "-85"
 			Y = "33"
 			Width = "180"
-			Height = "66"
+			Height = "126"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			NextItemID = "50"
+			NextItemID = "54"
 			LeftMargin = "20"
 			RightMargin = "16"
 			Mirror = "0">
@@ -41,9 +41,9 @@
 				Hotkey = ""
 				IsDisabled = "0"/>
 			<MenuPopupItem
-				ItemID = "48"
+				ItemID = "51"
 				Type = "CommandOption"
-				Item = "2. Xem doanh số"
+				Item = "2. Giao hàng"
 				Hotkey = ""
 				IsDisabled = "0"/>
 			<MenuPopupItem
@@ -52,12 +52,36 @@
 				Item = ""
 				Hotkey = ""
 				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "48"
+				Type = "CommandOption"
+				Item = "3. Doanh thu"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "50"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "52"
+				Type = "CommandOption"
+				Item = "4. Thu tiền"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "53"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
 		</Element>
 		<Element
 			CID = "1706558397"
 			Type = "ComponentThumbnail"
-			X = "280"
-			Y = "-41"
+			X = "202"
+			Y = "-118"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -82,8 +106,8 @@
 		<Element
 			CID = "1112825620"
 			Type = "ComponentThumbnail"
-			X = "285"
-			Y = "156"
+			X = "393"
+			Y = "-43"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -131,6 +155,58 @@
 			UseInertia = "0"
 			SnapScrolling = "0"
 			AnimateSnapping = "0"/>
+		<Element
+			CID = "1256937158"
+			Type = "ComponentThumbnail"
+			X = "219"
+			Y = "317"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "341EA0AF-5BD6-4E17-B9738B7283EEEFC0"
+			RootPath = "$Container"
+			Filename = "..\..\BanHang\CongNo\1.1.DanhSachCongNo.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "1683692330"
+			Type = "ComponentThumbnail"
+			X = "317"
+			Y = "168"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "2AD8EA92-C2A3-4DBF-A9D3CBBD130FA0C3"
+			RootPath = "$Container"
+			Filename = "..\..\BanHang\DoanhThu\1.1.DS_DoanhThu.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -146,14 +222,36 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1014376813"
+			CID = "1441752663"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "51"
+			SourceRefID = "105144190"
+			TargetRefID = "1112825620"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1256921775"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "52"
+			SourceRefID = "105144190"
+			TargetRefID = "1256937158"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1683703990"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
 			SubType = "ModelessSwitchTop"
 			SourceSubItemID = "48"
 			SourceRefID = "105144190"
-			TargetRefID = "481053965"
+			TargetRefID = "1683692330"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>

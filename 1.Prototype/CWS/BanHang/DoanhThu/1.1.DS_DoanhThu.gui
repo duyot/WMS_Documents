@@ -131,7 +131,7 @@
 			MarginRight = "0"
 			MarginTop = "0"
 			MarginBottom = "0"
-			Text = "Cập nhật thông tin giao hàng"
+			Text = "Cập nhật thông tin doanh thu"
 			HasHeader = "1"
 			HasSeparatorLine = "1"
 			HeaderHeight = "18"
@@ -153,8 +153,8 @@
 		<Element
 			CID = "79374181"
 			Type = "ListBox"
-			X = "-39"
-			Y = "-68"
+			X = "31"
+			Y = "-114"
 			Width = "295"
 			Height = "52"
 			Flags = "2"
@@ -298,7 +298,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			Text = "Thông tin lịch sử giao dịch"
+			Text = "Thông tin lịch sử cập nhật doanh thu"
 			IsDisabled = "0"
 			IsHyperlink = "0"
 			Fill = "None"
@@ -452,7 +452,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			NextColumnID = "41"
+			NextColumnID = "47"
 			NextRowID = "38"
 			IsFlat = "0"
 			IsHeaderBold = "1"
@@ -523,44 +523,10 @@
 					OddBackgroundColour = "255,255,255,0,6"
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
-					ColumnID = "32"
-					Heading = "Kho hàng"
-					VisibleCondition = ""
-					Width = "164"
-					HeaderMargin = "0"
-					CellMargin = "0"
-					HasCustomOddBgColour = "0"
-					HasCustomEvenBgColour = "0"
-					HasCustomTextColour = "0"
-					HighlightSelections = "1"
-					Type = "Text"
-					HeadingAlignment = "Centre"
-					CellAlignment = "Left"/>
-				<ColumnItem
-					OddBackgroundColour = "255,255,255,0,6"
-					EvenBackgroundColour = "255,255,255,0,6"
-					TextColour = "0,0,0,0,9"
 					ColumnID = "5"
 					Heading = "Khách hàng"
 					VisibleCondition = ""
-					Width = "199"
-					HeaderMargin = "0"
-					CellMargin = "0"
-					HasCustomOddBgColour = "0"
-					HasCustomEvenBgColour = "0"
-					HasCustomTextColour = "0"
-					HighlightSelections = "1"
-					Type = "Text"
-					HeadingAlignment = "Centre"
-					CellAlignment = "Left"/>
-				<ColumnItem
-					OddBackgroundColour = "255,255,255,0,6"
-					EvenBackgroundColour = "255,255,255,0,6"
-					TextColour = "0,0,0,0,9"
-					ColumnID = "39"
-					Heading = "Ghi chú"
-					VisibleCondition = ""
-					Width = "102"
+					Width = "221"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -575,9 +541,9 @@
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
 					ColumnID = "14"
-					Heading = "Người giao dịch"
+					Heading = "Người thực hiện"
 					VisibleCondition = ""
-					Width = "99"
+					Width = "93"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -592,9 +558,9 @@
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
 					ColumnID = "40"
-					Heading = "Ngày giao dịch"
+					Heading = "Thời gian thực hiện"
 					VisibleCondition = ""
-					Width = "126"
+					Width = "122"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -608,10 +574,78 @@
 					OddBackgroundColour = "255,255,255,0,6"
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
-					ColumnID = "36"
-					Heading = "Tình trạng giao hàng"
+					ColumnID = "41"
+					Heading = "Tiền hàng"
 					VisibleCondition = ""
-					Width = "132"
+					Width = "85"
+					HeaderMargin = "0"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HighlightSelections = "1"
+					Type = "Text"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "43"
+					Heading = "VAT (%)"
+					VisibleCondition = ""
+					Width = "57"
+					HeaderMargin = "0"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HighlightSelections = "1"
+					Type = "Text"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "44"
+					Heading = "Phí dịch vụ"
+					VisibleCondition = ""
+					Width = "90"
+					HeaderMargin = "0"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HighlightSelections = "1"
+					Type = "Text"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "45"
+					Heading = "Tổng tiền"
+					VisibleCondition = ""
+					Width = "84"
+					HeaderMargin = "0"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HighlightSelections = "1"
+					Type = "Text"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "46"
+					Heading = "Loại doanh thu"
+					VisibleCondition = ""
+					Width = "68"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -650,22 +684,28 @@
 						PXK_QM/16/0005
 					</Cell>
 					<Cell>
-						Kho Quang Minh
-					</Cell>
-					<Cell>
 						Nguyễn Văn A
-					</Cell>
-					<Cell>
-						
 					</Cell>
 					<Cell>
 						Phạm Văn A
 					</Cell>
 					<Cell>
-						14/04/2020 13:44:30
+						12/03/2020 13:20:30
 					</Cell>
 					<Cell>
-						Đã giao
+						3,000,000
+					</Cell>
+					<Cell>
+						10
+					</Cell>
+					<Cell>
+						230,000
+					</Cell>
+					<Cell>
+						3,520,000
+					</Cell>
+					<Cell>
+						Phiếu xuất
 					</Cell>
 					<Cell>
 						
@@ -678,25 +718,31 @@
 						2
 					</Cell>
 					<Cell>
-						PXK_QM/16/0006
-					</Cell>
-					<Cell>
-						Kho Quang Minh
+						
 					</Cell>
 					<Cell>
 						Trần Văn B
 					</Cell>
 					<Cell>
-						
-					</Cell>
-					<Cell>
 						Nguyễn Văn B
 					</Cell>
 					<Cell>
-						14/04/2020 13:44:30
+						10/03/2020 10:10:20
 					</Cell>
 					<Cell>
-						Chưa giao
+						152,000,000
+					</Cell>
+					<Cell>
+						0
+					</Cell>
+					<Cell>
+						0
+					</Cell>
+					<Cell>
+						152,000,000
+					</Cell>
+					<Cell>
+						Nhập tay
 					</Cell>
 					<Cell>
 						
@@ -705,6 +751,12 @@
 				<Row
 					RowID = "28"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -763,10 +815,22 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "31"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -825,10 +889,22 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "23"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -887,10 +963,22 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "21"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -949,10 +1037,22 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "34"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1011,6 +1111,12 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "36"
@@ -1042,10 +1148,22 @@
 					<Cell>
 						
 					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 				</Row>
 				<Row
 					RowID = "37"
 					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1289,7 +1407,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			Text = "Ngày giao dịch: Từ ngày"
+			Text = "Thời gian thực hiện: Từ"
 			IsDisabled = "0"
 			IsHyperlink = "0"
 			Fill = "None"
@@ -1434,8 +1552,8 @@
 		<Element
 			CID = "669461770"
 			Type = "StaticText"
-			X = "588"
-			Y = "148"
+			X = "18"
+			Y = "184"
 			Width = "110"
 			Height = "24"
 			Flags = "0"
@@ -1446,7 +1564,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			Text = "Tình trạng giao hàng"
+			Text = "Loại doanh thu"
 			IsDisabled = "0"
 			IsHyperlink = "0"
 			Fill = "None"
@@ -1489,32 +1607,6 @@
 			UseDataTable = "0"
 			TableName = ""/>
 		<Element
-			CID = "1978361754"
-			Type = "ComponentThumbnail"
-			X = "1226"
-			Y = "392"
-			Width = "120"
-			Height = "120"
-			Flags = "3"
-			UseDataTable = "0"
-			TableName = ""
-			BackgroundColour = "255,255,255,0,6"
-			FileID = "068733D1-E74C-41FA-8454A755A383D60D"
-			RootPath = "$Container"
-			Filename = "2.2.GiaoHang_ThuTien.gui"
-			Background = "Transparent"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ScrollBarHorz = "Auto"
-			ScrollBarVert = "Auto"
-			StepSizeHorz = "4"
-			StepSizeVert = "4"
-			MaintainSize = "1"
-			AllowDragScrolling = "0"
-			UseInertia = "0"
-			SnapScrolling = "0"
-			AnimateSnapping = "0"/>
-		<Element
 			CID = "2060615140"
 			Type = "StaticText"
 			X = "137"
@@ -1536,7 +1628,28 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "1593380726"
+			CID = "1140678336"
+			Type = "StaticText"
+			X = "588"
+			Y = "148"
+			Width = "94"
+			Height = "24"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Người thực hiện"
+			IsDisabled = "0"
+			IsHyperlink = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "1140686574"
 			Type = "ComboBox"
 			X = "729"
 			Y = "150"
@@ -1566,162 +1679,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "192,192,255,0,0"/>
 		<Element
-			CID = "1593400633"
-			Type = "ListBox"
-			X = "529"
-			Y = "-173"
-			Width = "295"
-			Height = "68"
-			Flags = "2"
-			UseDataTable = "0"
-			TableName = ""
-			TextColour = "0,0,0,0,9"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			NextItemID = "10"
-			IsDisabled = "0"
-			HasHorzScrollBar = "0"
-			HasVertScrollBar = "0"
-			Mirror = "0"
-			WordWrap = "0"
-			IsFlat = "1"
-			IsTransparent = "0"
-			HasBorder = "1"
-			AutoHeight = "1"
-			HorzOffset = "0"
-			HorzMargin = "0"
-			FirstVisibleItem = "1"
-			ItemHeight = "16"
-			MaxVisibleItems = "20"
-			SortOption = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"
-			DataItemContent = "">
-			<ListBoxItem
-				ItemID = "1"
-				Value = "---Tất cả---"
-				IsSelected = "0"/>
-			<ListBoxItem
-				ItemID = "5"
-				Value = "Chưa giao"
-				IsSelected = "0"/>
-			<ListBoxItem
-				ItemID = "2"
-				Value = "Đang giao"
-				IsSelected = "0"/>
-			<ListBoxItem
-				ItemID = "9"
-				Value = "Đã giao"
-				IsSelected = "0"/>
-		</Element>
-		<Element
-			CID = "1568093204"
-			Type = "StaticText"
-			X = "18"
-			Y = "184"
-			Width = "77"
-			Height = "24"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FillColour = "236,233,216,0,16"
-			TextColour = "0,0,0,0,19"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "Lý do xuất kho"
-			IsDisabled = "0"
-			IsHyperlink = "0"
-			Fill = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"/>
-		<Element
-			CID = "1568094478"
-			Type = "ComboBox"
-			X = "152"
-			Y = "185"
-			Width = "306"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "---Tất cả---"
-			IsDisabled = "0"
-			IsEditable = "0"
-			IsFlat = "0"
-			Mirror = "0"
-			CustomStyle = "0"
-			HorzAlign = "Left"
-			OverrideTextColour = "0"
-			OverrideDisabledTextColour = "0"
-			OverrideFillColour = "0"
-			OverrideDisabledFillColour = "0"
-			OverrideBorderColour = "0"
-			TextColour = "0,0,0,0,9"
-			DisabledTextColour = "161,161,146,0,18"
-			FillColour = "240,240,255,0,0"
-			DisabledFillColour = "236,233,216,0,16"
-			BorderColour = "192,192,255,0,0"/>
-		<Element
-			CID = "1140678336"
-			Type = "StaticText"
-			X = "588"
-			Y = "185"
-			Width = "94"
-			Height = "24"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FillColour = "236,233,216,0,16"
-			TextColour = "0,0,0,0,19"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "Người xuất kho"
-			IsDisabled = "0"
-			IsHyperlink = "0"
-			Fill = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"/>
-		<Element
-			CID = "1140686574"
-			Type = "ComboBox"
-			X = "729"
-			Y = "187"
-			Width = "295"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "---Tất cả---"
-			IsDisabled = "0"
-			IsEditable = "0"
-			IsFlat = "0"
-			Mirror = "0"
-			CustomStyle = "0"
-			HorzAlign = "Left"
-			OverrideTextColour = "0"
-			OverrideDisabledTextColour = "0"
-			OverrideFillColour = "0"
-			OverrideDisabledFillColour = "0"
-			OverrideBorderColour = "0"
-			TextColour = "0,0,0,0,9"
-			DisabledTextColour = "161,161,146,0,18"
-			FillColour = "240,240,255,0,0"
-			DisabledFillColour = "236,233,216,0,16"
-			BorderColour = "192,192,255,0,0"/>
-		<Element
 			CID = "983698640"
 			Type = "ListBox"
-			X = "135"
-			Y = "-195"
+			X = "285"
+			Y = "-230"
 			Width = "306"
 			Height = "116"
 			Flags = "2"
@@ -1898,29 +1859,85 @@
 			SliceTop = "0"
 			SliceBottom = "0"/>
 		<Element
-			CID = "2040944882"
-			Type = "Bitmap"
-			X = "1007"
-			Y = "356"
-			Width = "20"
-			Height = "18"
+			CID = "1098337718"
+			Type = "RadioButton"
+			X = "152"
+			Y = "185"
+			Width = "80"
+			Height = "21"
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
-			FileID = "69CD7F32-CCED-4352-BBD9403BCAC1F778"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Tất cả"
+			IsDisabled = "0"
+			IsSelected = "1"
+			IsTextLeft = "0"/>
+		<Element
+			CID = "542005369"
+			Type = "RadioButton"
+			X = "230"
+			Y = "185"
+			Width = "91"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Phiếu xuất"
+			IsDisabled = "0"
+			IsSelected = "0"
+			IsTextLeft = "0"/>
+		<Element
+			CID = "542011142"
+			Type = "RadioButton"
+			X = "348"
+			Y = "185"
+			Width = "80"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Nhập tay"
+			IsDisabled = "0"
+			IsSelected = "0"
+			IsTextLeft = "0"/>
+		<Element
+			CID = "1410599200"
+			Type = "ComponentThumbnail"
+			X = "1178"
+			Y = "394"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "585FF4EE-161D-473E-81AA35C9FE06D1D7"
 			RootPath = "$Container"
-			Filename = "..\..\Images\iconfinder_sign-info_299086.png"
-			Placement = "Stretch"
+			Filename = "1.2.CapNhat_DoanhThu.gui"
+			Background = "Transparent"
 			HorzAlign = "Left"
 			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -2024,28 +2041,6 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1593398298"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = ""
-			SourceRefID = "1593380726"
-			TargetRefID = "1593400633"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "1619276885"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = ""
-			SourceRefID = "1568094478"
-			TargetRefID = "983698640"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
 			CID = "1619277844"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
@@ -2068,36 +2063,25 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1378105141"
+			CID = "1410606615"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
 			SubType = "Modal"
 			SourceSubItemID = ""
 			SourceRefID = "1054410892"
-			TargetRefID = "1978361754"
+			TargetRefID = "1410599200"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1378106223"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "Modal"
-			SourceSubItemID = ""
-			SourceRefID = "2040944882"
-			TargetRefID = "1045304509"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "1378116706"
+			CID = "1410605232"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
 			SubType = "Modal"
 			SourceSubItemID = ""
 			SourceRefID = "2040940165"
-			TargetRefID = "1978361754"
+			TargetRefID = "1410599200"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
@@ -2108,7 +2092,11 @@
 			Elements = "1749485568"/>
 	</Groups>
 	<SelectionGroups
-		CID = "4"/>
+		CID = "4">
+		<SelectionGroup
+			CID = "541992357"
+			Elements = "542011142,542005369,1098337718"/>
+	</SelectionGroups>
 	<Notes
 		CID = "5">
 		<Note
