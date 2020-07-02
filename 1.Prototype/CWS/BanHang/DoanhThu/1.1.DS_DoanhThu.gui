@@ -202,7 +202,7 @@
 			X = "8"
 			Y = "105"
 			Width = "1036"
-			Height = "120"
+			Height = "104"
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
@@ -304,57 +304,6 @@
 			Fill = "None"
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
-		<Element
-			CID = "1749485568"
-			Type = "StaticText"
-			X = "588"
-			Y = "114"
-			Width = "60"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FillColour = "236,233,216,0,16"
-			TextColour = "0,0,0,0,19"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "Kho hàng"
-			IsDisabled = "0"
-			IsHyperlink = "0"
-			Fill = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"/>
-		<Element
-			CID = "1749490864"
-			Type = "ComboBox"
-			X = "729"
-			Y = "114"
-			Width = "295"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "---Chọn---"
-			IsDisabled = "0"
-			IsEditable = "0"
-			IsFlat = "0"
-			Mirror = "0"
-			CustomStyle = "0"
-			HorzAlign = "Left"
-			OverrideTextColour = "0"
-			OverrideDisabledTextColour = "0"
-			OverrideFillColour = "0"
-			OverrideDisabledFillColour = "0"
-			OverrideBorderColour = "0"
-			TextColour = "0,0,0,0,9"
-			DisabledTextColour = "161,161,146,0,18"
-			FillColour = "240,240,255,0,0"
-			DisabledFillColour = "236,233,216,0,16"
-			BorderColour = "192,192,255,0,0"/>
 		<Element
 			CID = "379273998"
 			Type = "StaticText"
@@ -684,7 +633,7 @@
 						PXK_QM/16/0005
 					</Cell>
 					<Cell>
-						Nguyễn Văn A
+						Công ty Điện máy Trần Anh
 					</Cell>
 					<Cell>
 						Phạm Văn A
@@ -721,7 +670,7 @@
 						
 					</Cell>
 					<Cell>
-						Trần Văn B
+						Công ty XNK Thanh Tâm
 					</Cell>
 					<Cell>
 						Nguyễn Văn B
@@ -1245,8 +1194,8 @@
 		<Element
 			CID = "2097435834"
 			Type = "TextButton"
-			X = "487"
-			Y = "238"
+			X = "495"
+			Y = "225"
 			Width = "75"
 			Height = "23"
 			Flags = "0"
@@ -1362,8 +1311,8 @@
 		<Element
 			CID = "738163123"
 			Type = "Shape"
-			X = "152"
-			Y = "149"
+			X = "720"
+			Y = "119"
 			Width = "122"
 			Height = "21"
 			Flags = "0"
@@ -1395,8 +1344,8 @@
 		<Element
 			CID = "738157468"
 			Type = "StaticText"
-			X = "18"
-			Y = "145"
+			X = "586"
+			Y = "115"
 			Width = "124"
 			Height = "27"
 			Flags = "0"
@@ -1416,8 +1365,8 @@
 		<Element
 			CID = "738152228"
 			Type = "Shape"
-			X = "334"
-			Y = "149"
+			X = "902"
+			Y = "119"
 			Width = "122"
 			Height = "21"
 			Flags = "0"
@@ -1449,8 +1398,8 @@
 		<Element
 			CID = "738133679"
 			Type = "StaticText"
-			X = "285"
-			Y = "147"
+			X = "853"
+			Y = "117"
 			Width = "52"
 			Height = "24"
 			Flags = "0"
@@ -1504,8 +1453,8 @@
 		<Element
 			CID = "1441007022"
 			Type = "NavigationSwitchPlaceholder"
-			X = "153"
-			Y = "174"
+			X = "721"
+			Y = "144"
 			Width = "16"
 			Height = "16"
 			Flags = "3"
@@ -1540,8 +1489,8 @@
 		<Element
 			CID = "1073820083"
 			Type = "NavigationSwitchPlaceholder"
-			X = "337"
-			Y = "175"
+			X = "905"
+			Y = "145"
 			Width = "16"
 			Height = "16"
 			Flags = "3"
@@ -1552,8 +1501,8 @@
 		<Element
 			CID = "669461770"
 			Type = "StaticText"
-			X = "18"
-			Y = "184"
+			X = "17"
+			Y = "152"
 			Width = "110"
 			Height = "24"
 			Flags = "0"
@@ -1609,8 +1558,8 @@
 		<Element
 			CID = "2060615140"
 			Type = "StaticText"
-			X = "137"
-			Y = "148"
+			X = "705"
+			Y = "118"
 			Width = "17"
 			Height = "24"
 			Flags = "0"
@@ -1631,7 +1580,7 @@
 			CID = "1140678336"
 			Type = "StaticText"
 			X = "588"
-			Y = "148"
+			Y = "152"
 			Width = "94"
 			Height = "24"
 			Flags = "0"
@@ -1651,9 +1600,9 @@
 		<Element
 			CID = "1140686574"
 			Type = "ComboBox"
-			X = "729"
-			Y = "150"
-			Width = "295"
+			X = "720"
+			Y = "154"
+			Width = "304"
 			Height = "21"
 			Flags = "0"
 			UseDataTable = "0"
@@ -1861,8 +1810,8 @@
 		<Element
 			CID = "1098337718"
 			Type = "RadioButton"
-			X = "152"
-			Y = "185"
+			X = "151"
+			Y = "155"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1879,8 +1828,8 @@
 		<Element
 			CID = "542005369"
 			Type = "RadioButton"
-			X = "230"
-			Y = "185"
+			X = "229"
+			Y = "155"
 			Width = "91"
 			Height = "21"
 			Flags = "0"
@@ -1897,8 +1846,8 @@
 		<Element
 			CID = "542011142"
 			Type = "RadioButton"
-			X = "348"
-			Y = "185"
+			X = "347"
+			Y = "155"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1938,6 +1887,56 @@
 			UseInertia = "0"
 			SnapScrolling = "0"
 			AnimateSnapping = "0"/>
+		<Element
+			CID = "1975275428"
+			Type = "Bitmap"
+			X = "41"
+			Y = "280"
+			Width = "14"
+			Height = "14"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "75CFD007-3AD7-4E43-8EBF759089AAFF1F"
+			RootPath = "$Container"
+			Filename = "..\..\Images\iconfinder_add_126583.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "455685648"
+			Type = "ComponentThumbnail"
+			X = "-187"
+			Y = "253"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "94DECD0C-148F-4F83-B873ADDCB2927B61"
+			RootPath = "$Container"
+			Filename = "1.3.TaoMoi_DoanhThu.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -1961,17 +1960,6 @@
 			SourceSubItemID = ""
 			SourceRefID = "79389495"
 			TargetRefID = "79374181"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "1441033749"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = ""
-			SourceRefID = "1749490864"
-			TargetRefID = "1904152819"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
@@ -2074,23 +2062,19 @@
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1410605232"
+			CID = "455672693"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
-			SubType = "Modal"
+			SubType = "ModalSelector"
 			SourceSubItemID = ""
-			SourceRefID = "2040940165"
-			TargetRefID = "1410599200"
+			SourceRefID = "1975275428"
+			TargetRefID = "455685648"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
 	<Groups
-		CID = "3">
-		<Group
-			CID = "1749487781"
-			Elements = "1749485568"/>
-	</Groups>
+		CID = "3"/>
 	<SelectionGroups
 		CID = "4">
 		<SelectionGroup

@@ -7,15 +7,15 @@
 	Width = "640"
 	Height = "480"
 	NextCID = "6"
-	RepresentativeRefID = "693581271"
+	RepresentativeRefID = "1243510574"
 	UseDefRepresentative = "1">
 	<Elements
 		CID = "1">
 		<Element
-			CID = "693581271"
+			CID = "1243510574"
 			Type = "Shape"
-			X = "87"
-			Y = "-164"
+			X = "1135"
+			Y = "24"
 			Width = "399"
 			Height = "494"
 			Flags = "0"
@@ -45,10 +45,10 @@
 			MarginTop = "0"
 			MarginBottom = "0"/>
 		<Element
-			CID = "693567826"
+			CID = "1243508445"
 			Type = "WebPanel"
-			X = "92"
-			Y = "-156"
+			X = "1140"
+			Y = "32"
 			Width = "387"
 			Height = "479"
 			Flags = "0"
@@ -88,10 +88,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693574781"
+			CID = "1243505947"
 			Type = "StaticText"
-			X = "133"
-			Y = "-21"
+			X = "1181"
+			Y = "167"
 			Width = "68"
 			Height = "24"
 			Flags = "0"
@@ -109,10 +109,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693579625"
+			CID = "1243485489"
 			Type = "Icon"
-			X = "458"
-			Y = "-154"
+			X = "1506"
+			Y = "34"
 			Width = "16"
 			Height = "16"
 			Flags = "3"
@@ -123,20 +123,20 @@
 			IconIndex = "0"
 			IsDisabled = "0"/>
 		<Element
-			CID = "693580185"
+			CID = "1243483248"
 			Type = "StoryboardCloseBox"
-			X = "313"
-			Y = "383"
+			X = "1361"
+			Y = "571"
 			Width = "90"
 			Height = "30"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""/>
 		<Element
-			CID = "693586274"
+			CID = "1243484253"
 			Type = "StoryboardMessageBox"
-			X = "115"
-			Y = "363"
+			X = "1163"
+			Y = "551"
 			Width = "180"
 			Height = "75"
 			Flags = "0"
@@ -145,10 +145,10 @@
 			Title = "Thông báo từ hệ thống!"
 			Message = "Thao tác được thực hiện thành công"/>
 		<Element
-			CID = "693571593"
+			CID = "1243481867"
 			Type = "StaticText"
-			X = "133"
-			Y = "39"
+			X = "1181"
+			Y = "227"
 			Width = "97"
 			Height = "26"
 			Flags = "0"
@@ -166,20 +166,20 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693576031"
+			CID = "1243487571"
 			Type = "StoryboardCloseBox"
-			X = "569"
-			Y = "-156"
+			X = "1617"
+			Y = "32"
 			Width = "90"
 			Height = "30"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""/>
 		<Element
-			CID = "693580621"
+			CID = "1243489909"
 			Type = "StaticText"
-			X = "133"
-			Y = "-74"
+			X = "1181"
+			Y = "114"
 			Width = "89"
 			Height = "24"
 			Flags = "0"
@@ -197,10 +197,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693576353"
+			CID = "1243493967"
 			Type = "StaticText"
-			X = "219"
-			Y = "-74"
+			X = "1267"
+			Y = "114"
 			Width = "17"
 			Height = "24"
 			Flags = "0"
@@ -218,10 +218,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693572063"
+			CID = "1243486061"
 			Type = "Shape"
-			X = "245"
-			Y = "252"
+			X = "1293"
+			Y = "440"
 			Width = "70"
 			Height = "32"
 			Flags = "0"
@@ -251,10 +251,10 @@
 			MarginTop = "0"
 			MarginBottom = "0"/>
 		<Element
-			CID = "693573529"
+			CID = "1243499203"
 			Type = "StaticText"
-			X = "132"
-			Y = "103"
+			X = "1180"
+			Y = "291"
 			Width = "87"
 			Height = "25"
 			Flags = "0"
@@ -272,10 +272,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "693570533"
+			CID = "1243501214"
 			Type = "EditBox"
-			X = "133"
-			Y = "-53"
+			X = "1181"
+			Y = "135"
 			Width = "295"
 			Height = "21"
 			Flags = "2"
@@ -284,7 +284,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "110"
-			Text = "3,000,000"
+			Text = ""
 			IsDisabled = "0"
 			IsReadOnly = "0"
 			IsTransparent = "0"
@@ -306,10 +306,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "1451570630"
+			CID = "1243489189"
 			Type = "EditBox"
-			X = "133"
-			Y = "61"
+			X = "1181"
+			Y = "249"
 			Width = "295"
 			Height = "21"
 			Flags = "2"
@@ -318,7 +318,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "110"
-			Text = "230,000"
+			Text = ""
 			IsDisabled = "0"
 			IsReadOnly = "0"
 			IsTransparent = "0"
@@ -340,10 +340,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "883189655"
+			CID = "1243499581"
 			Type = "RadioButton"
-			X = "152"
-			Y = "5"
+			X = "1200"
+			Y = "193"
 			Width = "83"
 			Height = "21"
 			Flags = "0"
@@ -358,10 +358,10 @@
 			IsSelected = "0"
 			IsTextLeft = "0"/>
 		<Element
-			CID = "699544420"
+			CID = "1243496225"
 			Type = "RadioButton"
-			X = "252"
-			Y = "6"
+			X = "1300"
+			Y = "194"
 			Width = "60"
 			Height = "21"
 			Flags = "0"
@@ -376,10 +376,10 @@
 			IsSelected = "0"
 			IsTextLeft = "0"/>
 		<Element
-			CID = "699557908"
+			CID = "1243488610"
 			Type = "RadioButton"
-			X = "312"
-			Y = "6"
+			X = "1360"
+			Y = "194"
 			Width = "60"
 			Height = "21"
 			Flags = "0"
@@ -394,10 +394,10 @@
 			IsSelected = "0"
 			IsTextLeft = "0"/>
 		<Element
-			CID = "699545736"
+			CID = "1243481860"
 			Type = "RadioButton"
-			X = "372"
-			Y = "5"
+			X = "1420"
+			Y = "193"
 			Width = "60"
 			Height = "21"
 			Flags = "0"
@@ -412,10 +412,10 @@
 			IsSelected = "1"
 			IsTextLeft = "0"/>
 		<Element
-			CID = "1783565021"
+			CID = "1243494745"
 			Type = "EditBox"
-			X = "133"
-			Y = "125"
+			X = "1181"
+			Y = "313"
 			Width = "295"
 			Height = "21"
 			Flags = "2"
@@ -424,7 +424,7 @@
 			Typeface = ""
 			FontAttributes = "1"
 			TextSize = "110"
-			Text = "3,520,000"
+			Text = ""
 			IsDisabled = "1"
 			IsReadOnly = "0"
 			IsTransparent = "0"
@@ -446,10 +446,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "505567105"
+			CID = "1243488093"
 			Type = "EditBoxMultiLine"
-			X = "131"
-			Y = "193"
+			X = "1179"
+			Y = "381"
 			Width = "294"
 			Height = "39"
 			Flags = "0"
@@ -486,10 +486,10 @@
 			</Text>
 		</Element>
 		<Element
-			CID = "505567590"
+			CID = "1243497017"
 			Type = "StaticText"
-			X = "132"
-			Y = "171"
+			X = "1180"
+			Y = "359"
 			Width = "63"
 			Height = "26"
 			Flags = "0"
@@ -507,10 +507,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "1480068497"
+			CID = "1243494171"
 			Type = "ListBox"
-			X = "-378"
-			Y = "-184"
+			X = "670"
+			Y = "4"
 			Width = "295"
 			Height = "52"
 			Flags = "2"
@@ -553,10 +553,10 @@
 				IsSelected = "0"/>
 		</Element>
 		<Element
-			CID = "1480089253"
+			CID = "1243507591"
 			Type = "StaticText"
-			X = "133"
-			Y = "-130"
+			X = "1181"
+			Y = "58"
 			Width = "66"
 			Height = "24"
 			Flags = "0"
@@ -574,10 +574,10 @@
 			HorzAlign = "Left"
 			VertAlign = "Centre"/>
 		<Element
-			CID = "1480094029"
+			CID = "1243501240"
 			Type = "ComboBox"
-			X = "133"
-			Y = "-106"
+			X = "1181"
+			Y = "82"
 			Width = "295"
 			Height = "21"
 			Flags = "0"
@@ -604,10 +604,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "192,192,255,0,0"/>
 		<Element
-			CID = "1480065240"
+			CID = "1243485880"
 			Type = "StaticText"
-			X = "194"
-			Y = "-130"
+			X = "1242"
+			Y = "58"
 			Width = "17"
 			Height = "24"
 			Flags = "0"
@@ -628,47 +628,47 @@
 	<Connections
 		CID = "2">
 		<Connection
-			CID = "693584344"
+			CID = "1243482420"
 			Layer = "Storyboard"
 			Trigger = "LeftClick"
 			Type = "Close"
 			SubType = ""
 			SourceSubItemID = ""
-			SourceRefID = "693586274"
-			TargetRefID = "693580185"
+			SourceRefID = "1243484253"
+			TargetRefID = "1243483248"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "693594717"
+			CID = "1243493562"
 			Layer = "Storyboard"
 			Trigger = "LeftClick"
 			Type = "Close"
 			SubType = ""
 			SourceSubItemID = ""
-			SourceRefID = "693579625"
-			TargetRefID = "693576031"
+			SourceRefID = "1243485489"
+			TargetRefID = "1243487571"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "693581345"
+			CID = "1243491819"
 			Layer = "Storyboard"
 			Trigger = "LeftClick"
 			Type = "MessageBox"
 			SubType = ""
 			SourceSubItemID = ""
-			SourceRefID = "693572063"
-			TargetRefID = "693586274"
+			SourceRefID = "1243486061"
+			TargetRefID = "1243484253"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection
-			CID = "1480077345"
+			CID = "1243480317"
 			Layer = "DesignElements"
 			Trigger = "LeftClick"
 			Type = "Navigation"
 			SubType = "ModalSelector"
 			SourceSubItemID = ""
-			SourceRefID = "1480094029"
-			TargetRefID = "1480068497"
+			SourceRefID = "1243501240"
+			TargetRefID = "1243494171"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
@@ -679,6 +679,9 @@
 		<SelectionGroup
 			CID = "810576376"
 			Elements = "699545736,699557908,699544420,883189655"/>
+		<SelectionGroup
+			CID = "1243510280"
+			Elements = "1243499581,1243496225,1243488610,1243481860"/>
 	</SelectionGroups>
 	<Notes
 		CID = "5">
