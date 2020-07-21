@@ -4,11 +4,36 @@
 	NextCID = "2">
 	<OpenFiles
 		CID = "1"
-		LastActive = "1">
+		LastActive = "6">
 		<File
 			FileID = "657C51CD-270B-4518-830A6A579AB9DCDB"
 			RootPath = "$Container"
 			RelativePathname = "Masters\TrangChu.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "2AD8EA92-C2A3-4DBF-A9D3CBBD130FA0C3"
+			RootPath = "$Container"
+			RelativePathname = "BanHang\DoanhThu\1.1.DS_DoanhThu.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "918B8B67-500A-4E9F-A6EDF37E35CA13E4"
+			RootPath = "$Container"
+			RelativePathname = "BanHang\QuanLyGiaoHang\1.1.XemGiaoDich.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "B94AE9DC-467B-4476-8A477A51411581AB"
+			RootPath = "$Container"
+			RelativePathname = "Masters\Menu\menu.Banhang.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "05CB2801-5CCF-42D1-BBBE0BAB55AA0C18"
+			RootPath = "$Container"
+			RelativePathname = "Masters\Header.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "18E22E7A-89FD-4542-B1897769F9964ADF"
+			RootPath = "$Container"
+			RelativePathname = "QuanLyChung\DanhSachKho\1.1.DanhSachKho_NC.gui"
 			ViewSettings = ""/>
 	</OpenFiles>
 </Workspace>
