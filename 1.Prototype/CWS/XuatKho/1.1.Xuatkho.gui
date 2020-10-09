@@ -200,18 +200,18 @@
 				IsSelected = "0"/>
 		</Element>
 		<Element
-			CID = "392448803"
+			CID = "983315877"
 			Type = "Bitmap"
-			X = "4"
-			Y = "60"
-			Width = "1050"
-			Height = "443"
+			X = "5"
+			Y = "61"
+			Width = "1045"
+			Height = "388"
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
-			FileID = "921F18F8-9DD7-4D6A-9DC1C6A836FC4DE6"
+			FileID = "ADB1297F-1B52-4638-8F56F0EB10160B17"
 			RootPath = "$Container"
-			Filename = "..\Images\XuatKho.png"
+			Filename = "images\Clip002.png"
 			Placement = "Stretch"
 			HorzAlign = "Left"
 			VertAlign = "Top"
@@ -223,80 +223,6 @@
 			SliceRight = "0"
 			SliceTop = "0"
 			SliceBottom = "0"/>
-		<Element
-			CID = "2058893974"
-			Type = "Bitmap"
-			X = "493"
-			Y = "235"
-			Width = "20"
-			Height = "20"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "39557B50-37BA-4578-8B81420AD0C1C584"
-			RootPath = "$Container"
-			Filename = "..\Images\search_blue.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "2058906343"
-			Type = "Bitmap"
-			X = "519"
-			Y = "236"
-			Width = "20"
-			Height = "20"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "0CB61BFD-2C29-40D3-9703D2C6D3E91E15"
-			RootPath = "$Container"
-			Filename = "..\Images\close _black.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1270036619"
-			Type = "ComponentThumbnail"
-			X = "-292"
-			Y = "317"
-			Width = "120"
-			Height = "120"
-			Flags = "3"
-			UseDataTable = "0"
-			TableName = ""
-			BackgroundColour = "255,255,255,0,6"
-			FileID = "3833B389-545A-49E2-9EF98DA00C3FAA7C"
-			RootPath = "$Container"
-			Filename = "..\Util\TimKiemSanPham.gui"
-			Background = "Transparent"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ScrollBarHorz = "Auto"
-			ScrollBarVert = "Auto"
-			StepSizeHorz = "4"
-			StepSizeVert = "4"
-			MaintainSize = "1"
-			AllowDragScrolling = "0"
-			UseInertia = "0"
-			SnapScrolling = "0"
-			AnimateSnapping = "0"/>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -311,24 +237,9 @@
 			TargetRefID = "582485387"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "1270041616"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "Modal"
-			SourceSubItemID = ""
-			SourceRefID = "2058893974"
-			TargetRefID = "1270036619"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
 	<Groups
-		CID = "3">
-		<Group
-			CID = "1749487781"
-			Elements = "1749485568"/>
-	</Groups>
+		CID = "3"/>
 	<SelectionGroups
 		CID = "4"/>
 	<Notes

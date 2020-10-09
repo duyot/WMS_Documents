@@ -72,7 +72,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			NextItemID = "22"
+			NextItemID = "23"
 			LeftMargin = "0"
 			Mirror = "0">
 			<MenuBarItem
@@ -96,6 +96,9 @@
 			<MenuBarItem
 				Item = "Bán hàng"
 				ItemID = "20"/>
+			<MenuBarItem
+				Item = "Báo cáo"
+				ItemID = "22"/>
 		</Element>
 		<Element
 			CID = "1080379116"
@@ -199,10 +202,10 @@
 		<Element
 			CID = "1638339942"
 			Type = "Component"
-			X = "618"
-			Y = "-16"
+			X = "579"
+			Y = "-104"
 			Width = "180"
-			Height = "66"
+			Height = "126"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -254,7 +257,7 @@
 			X = "152"
 			Y = "-89"
 			Width = "173"
-			Height = "36"
+			Height = "66"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -279,8 +282,8 @@
 			Type = "Component"
 			X = "344"
 			Y = "-50"
-			Width = "231"
-			Height = "96"
+			Width = "181"
+			Height = "36"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -311,7 +314,7 @@
 			UseDataTable = "0"
 			TableName = ""
 			BackgroundColour = "255,255,255,0,6"
-			FileID = "461F0234-F89C-42AB-9C78E78521BAA554"
+			FileID = "1109BB52-C271-4139-868D43B38DEA3EDB"
 			RootPath = "$Container"
 			Filename = "Menu\menu.Tonkho.gui"
 			Background = "Transparent"
@@ -322,6 +325,32 @@
 			StepSizeHorz = "4"
 			StepSizeVert = "4"
 			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "1463628310"
+			Type = "Component"
+			X = "816"
+			Y = "-77"
+			Width = "265"
+			Height = "126"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "4F26E3DC-4480-472B-B53AF6E5A40B139C"
+			RootPath = "$Container"
+			Filename = "Menu\menu.BaoCao.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "0"
 			AllowDragScrolling = "0"
 			UseInertia = "0"
 			SnapScrolling = "0"
@@ -404,6 +433,17 @@
 			SourceSubItemID = "21"
 			SourceRefID = "647265493"
 			TargetRefID = "533929960"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1463616813"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = "22"
+			SourceRefID = "647265493"
+			TargetRefID = "1463628310"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>

@@ -268,7 +268,7 @@
 			RowHeight = "26"
 			FirstVisibleRow = "0"
 			FixedColumns = "0"
-			SortedColumn = "3"
+			SortedColumn = "2"
 			ValueColumn = "0"
 			SortedBlendFactor = "0.000000"
 			ColumnSort = "Ascending"
@@ -296,27 +296,10 @@
 					OddBackgroundColour = "255,255,255,0,6"
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
-					ColumnID = "12"
-					Heading = "Đơn vị sử dụng"
-					VisibleCondition = ""
-					Width = "176"
-					HeaderMargin = "0"
-					CellMargin = "0"
-					HasCustomOddBgColour = "0"
-					HasCustomEvenBgColour = "0"
-					HasCustomTextColour = "0"
-					HighlightSelections = "1"
-					Type = "Text"
-					HeadingAlignment = "Centre"
-					CellAlignment = "Left"/>
-				<ColumnItem
-					OddBackgroundColour = "255,255,255,0,6"
-					EvenBackgroundColour = "255,255,255,0,6"
-					TextColour = "0,0,0,0,9"
 					ColumnID = "7"
 					Heading = "Mã phòng ban"
 					VisibleCondition = ""
-					Width = "94"
+					Width = "196"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -333,7 +316,7 @@
 					ColumnID = "3"
 					Heading = "Tên phòng ban"
 					VisibleCondition = ""
-					Width = "282"
+					Width = "353"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -403,9 +386,6 @@
 						1
 					</Cell>
 					<Cell>
-						Công ty Điện máy Trần Anh
-					</Cell>
-					<Cell>
 						TA_001
 					</Cell>
 					<Cell>
@@ -428,9 +408,6 @@
 						2
 					</Cell>
 					<Cell>
-						Công ty Điện máy Trần Anh
-					</Cell>
-					<Cell>
 						TA_002
 					</Cell>
 					<Cell>
@@ -449,9 +426,6 @@
 				<Row
 					RowID = "13"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -492,16 +466,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "15"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -542,16 +510,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "17"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -592,16 +554,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "19"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -642,16 +598,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "21"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -692,16 +642,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "23"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -742,16 +686,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "25"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -792,16 +730,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "27"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -842,43 +774,16 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 			</Data>
 		</Element>
 		<Element
-			CID = "1698714565"
-			Type = "LineSegment"
-			X = "3"
-			Y = "100"
-			Width = "1045"
-			Height = "4"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			LineColour = "28,81,128,0,7"
-			TextColour = "0,0,0,0,9"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Opacity = "255"
-			LineWeight = "1"
-			Text = ""
-			LineShape = "Horizontal"
-			LineStyle = "Solid"
-			LineStart = "None"
-			LineEnd = "None"
-			HorzAlign = "Centre"
-			VertAlign = "Centre"/>
-		<Element
 			CID = "1698707084"
 			Type = "GroupBox"
 			X = "8"
-			Y = "104"
+			Y = "85"
 			Width = "1038"
-			Height = "105"
+			Height = "93"
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
@@ -895,7 +800,7 @@
 			CID = "1698723379"
 			Type = "StaticText"
 			X = "21"
-			Y = "165"
+			Y = "128"
 			Width = "62"
 			Height = "21"
 			Flags = "0"
@@ -916,7 +821,7 @@
 			CID = "1698703190"
 			Type = "EditBox"
 			X = "167"
-			Y = "165"
+			Y = "128"
 			Width = "295"
 			Height = "21"
 			Flags = "2"
@@ -949,8 +854,8 @@
 		<Element
 			CID = "1560875242"
 			Type = "TextButton"
-			X = "490"
-			Y = "181"
+			X = "485"
+			Y = "186"
 			Width = "75"
 			Height = "23"
 			Flags = "0"
@@ -995,27 +900,6 @@
 			UseInertia = "0"
 			SnapScrolling = "0"
 			AnimateSnapping = "0"/>
-		<Element
-			CID = "213657067"
-			Type = "StaticText"
-			X = "21"
-			Y = "128"
-			Width = "100"
-			Height = "24"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FillColour = "236,233,216,0,16"
-			TextColour = "0,0,0,0,19"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "Đơn vị sử dụng"
-			IsDisabled = "0"
-			IsHyperlink = "0"
-			Fill = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"/>
 		<Element
 			CID = "213663158"
 			Type = "ListBox"
@@ -1062,36 +946,6 @@
 				Value = "Công ty Cổ phần Thế Giới Di Động"
 				IsSelected = "0"/>
 		</Element>
-		<Element
-			CID = "213672791"
-			Type = "ComboBox"
-			X = "167"
-			Y = "131"
-			Width = "295"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "---Chọn---"
-			IsDisabled = "0"
-			IsEditable = "0"
-			IsFlat = "0"
-			Mirror = "0"
-			CustomStyle = "0"
-			HorzAlign = "Left"
-			OverrideTextColour = "0"
-			OverrideDisabledTextColour = "0"
-			OverrideFillColour = "0"
-			OverrideDisabledFillColour = "0"
-			OverrideBorderColour = "0"
-			TextColour = "0,0,0,0,9"
-			DisabledTextColour = "161,161,146,0,18"
-			FillColour = "240,240,255,0,0"
-			DisabledFillColour = "236,233,216,0,16"
-			BorderColour = "192,192,255,0,0"/>
 		<Element
 			CID = "687414698"
 			Type = "Bitmap"
@@ -1198,7 +1052,7 @@
 			CID = "810223131"
 			Type = "StaticText"
 			X = "664"
-			Y = "160"
+			Y = "123"
 			Width = "60"
 			Height = "21"
 			Flags = "0"
@@ -1219,7 +1073,7 @@
 			CID = "810243147"
 			Type = "RadioButton"
 			X = "770"
-			Y = "159"
+			Y = "122"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1237,7 +1091,7 @@
 			CID = "810234271"
 			Type = "RadioButton"
 			X = "859"
-			Y = "159"
+			Y = "122"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1301,17 +1155,6 @@
 			SourceSubItemID = "1962214615;"
 			SourceRefID = "1222380685"
 			TargetRefID = "582485387"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "213657182"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = ""
-			SourceRefID = "213672791"
-			TargetRefID = "213663158"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection

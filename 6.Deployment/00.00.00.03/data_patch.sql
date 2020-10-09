@@ -4,3 +4,7 @@
   from mjr_stock_trans
   where type =2;
   
+-- Cap nhat tat ca cac vi tri da khai truoc do la cho phep luu nhieu ma
+update cat_stock_cell
+set many_codes = 1
+where 1=1;

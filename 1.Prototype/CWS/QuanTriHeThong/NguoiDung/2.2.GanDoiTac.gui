@@ -1,0 +1,240 @@
+<Screen
+	CID = "1"
+	AppID = "2"
+	AppVer = "4.6.155.0"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "1127"
+	Height = "819"
+	NextCID = "6"
+	RepresentativeRefID = "336872816"
+	UseDefRepresentative = "0">
+	<Elements
+		CID = "1">
+		<Element
+			CID = "336872816"
+			Type = "Shape"
+			X = "577"
+			Y = "-14"
+			Width = "669"
+			Height = "413"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			TextColour = "0,0,0,0,9"
+			FillColour = "212,214,186,0,4"
+			GradientColour = "212,214,186,0,4"
+			BorderColour = "28,81,128,0,7"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Opacity = "255"
+			DropShadow = "0"
+			AutoCorners = "1"
+			CornerRadii = "6,6,6,6,6,6,6,6"
+			Text = ""
+			BorderWidth = "1"
+			Shape = "Rectangle"
+			Fill = "VerticalGradient"
+			Border = "Single"
+			LineStyle = "Solid"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "336885176"
+			Type = "StoryboardCloseBox"
+			X = "1320"
+			Y = "-71"
+			Width = "90"
+			Height = "30"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""/>
+		<Element
+			CID = "336882348"
+			Type = "StoryboardCloseBox"
+			X = "1243"
+			Y = "456"
+			Width = "90"
+			Height = "30"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""/>
+		<Element
+			CID = "336856613"
+			Type = "StoryboardMessageBox"
+			X = "1040"
+			Y = "468"
+			Width = "180"
+			Height = "75"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			Title = "Thông báo từ hệ thống!"
+			Message = "Thao tác được thực hiện thành công"/>
+		<Element
+			CID = "2036883897"
+			Type = "StoryboardCloseBox"
+			X = "1301"
+			Y = "317"
+			Width = "90"
+			Height = "30"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""/>
+		<Element
+			CID = "1737622680"
+			Type = "Bitmap"
+			X = "587"
+			Y = "-4"
+			Width = "651"
+			Height = "396"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "9EECC6D9-03D3-41CF-80B4CC0F92E6D01A"
+			RootPath = "$Container"
+			Filename = "images\Clip002.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "905448640"
+			Type = "StaticText"
+			X = "1216"
+			Y = "-2"
+			Width = "21"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = ""
+			IsDisabled = "0"
+			IsHyperlink = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "905453545"
+			Type = "StaticText"
+			X = "1064"
+			Y = "356"
+			Width = "83"
+			Height = "33"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = ""
+			IsDisabled = "0"
+			IsHyperlink = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "905472632"
+			Type = "StaticText"
+			X = "1152"
+			Y = "355"
+			Width = "83"
+			Height = "33"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = ""
+			IsDisabled = "0"
+			IsHyperlink = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+	</Elements>
+	<Connections
+		CID = "2">
+		<Connection
+			CID = "336867848"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Close"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "336856613"
+			TargetRefID = "336882348"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "905468729"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Close"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "905448640"
+			TargetRefID = "336885176"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "905469516"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "MessageBox"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "905453545"
+			TargetRefID = "336856613"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "905453131"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Close"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "905472632"
+			TargetRefID = "2036883897"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Groups
+		CID = "3"/>
+	<SelectionGroups
+		CID = "4"/>
+	<Notes
+		CID = "5">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

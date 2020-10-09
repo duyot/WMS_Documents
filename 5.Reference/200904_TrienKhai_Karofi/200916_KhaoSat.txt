@@ -1,0 +1,30 @@
+I. Đồng bộ với SAP.
+1. Đồng bộ danh mục hàng hóa, danh mục kho.
+2. Đồng bộ yêu cầu xuất kho (trên SAP tạo ra các DO => WMS cần đồng bộ các DO này).
+3. Xuất trên SAP => xuất tương ứng bên WMS.
+4. Đồng bộ yêu cầu xuất luân chuyển kho (trên SAP tạo ra DO => WMS đồng bộ các DO này).
+5. Kiểm kê. 
+-> Kiểm kê trên SAP độc lập.
+-> Kiểm kê trên WMS.
++ Kiểm kê mù theo vị trí.
++ Kiểm kê theo mã hàng.
+
+5. Nhập kho
+-> Gợi ý vị trí nhập kho theo hàng hóa trong yêu cầu nhập kho.
+-> Không cần quản lý serial hàng trong kho.
+
+
+Đưa ra 2 giải pháp
+1. Không đồng bộ hoàn toàn
+2. Đồng bộ hoàn toàn với SAP
+
+3. Tổng hợp toàn bộ tính năng của hệ thống trong kho
+-> Import vị trí
+-> Import danh sách hàng hóa
+-> Import 
+
+4. Quy trình khi không đồng bộ được.
+
+5. Xây dựng tài liệu => quy trình + màn hình.
+
+6. Hàng đồng bộ (BOM) => xây dựng tổng quan vì có trường hợp vật tư A => vật tư B => thành phẩm C

@@ -360,8 +360,8 @@
 		<Element
 			CID = "1202786552"
 			Type = "ComponentThumbnail"
-			X = "1129"
-			Y = "475"
+			X = "1096"
+			Y = "512"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -653,23 +653,6 @@
 					OddBackgroundColour = "255,255,255,0,6"
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
-					ColumnID = "3"
-					Heading = "Khách hàng"
-					VisibleCondition = ""
-					Width = "185"
-					HeaderMargin = "0"
-					CellMargin = "0"
-					HasCustomOddBgColour = "0"
-					HasCustomEvenBgColour = "0"
-					HasCustomTextColour = "0"
-					HighlightSelections = "1"
-					Type = "Text"
-					HeadingAlignment = "Centre"
-					CellAlignment = "Left"/>
-				<ColumnItem
-					OddBackgroundColour = "255,255,255,0,6"
-					EvenBackgroundColour = "255,255,255,0,6"
-					TextColour = "0,0,0,0,9"
 					ColumnID = "18"
 					Heading = "Mã nhân viên"
 					VisibleCondition = ""
@@ -690,7 +673,7 @@
 					ColumnID = "16"
 					Heading = "Họ tên"
 					VisibleCondition = ""
-					Width = "125"
+					Width = "221"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -707,7 +690,7 @@
 					ColumnID = "15"
 					Heading = "Email"
 					VisibleCondition = ""
-					Width = "117"
+					Width = "168"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -741,7 +724,7 @@
 					ColumnID = "21"
 					Heading = "Phòng ban"
 					VisibleCondition = ""
-					Width = "163"
+					Width = "156"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -775,7 +758,7 @@
 					ColumnID = "22"
 					Heading = "Thao tác"
 					VisibleCondition = ""
-					Width = "130"
+					Width = "174"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -792,9 +775,6 @@
 					IsSelected = "0">
 					<Cell>
 						1
-					</Cell>
-					<Cell>
-						Công ty Điện máy Trần Anh
 					</Cell>
 					<Cell>
 						anv
@@ -825,9 +805,6 @@
 						2
 					</Cell>
 					<Cell>
-						Công ty Điện máy Trần Anh
-					</Cell>
-					<Cell>
 						tranb
 					</Cell>
 					<Cell>
@@ -856,9 +833,6 @@
 						3
 					</Cell>
 					<Cell>
-						Công ty Cổ phần Thế giới di động
-					</Cell>
-					<Cell>
 						lamc
 					</Cell>
 					<Cell>
@@ -883,9 +857,6 @@
 				<Row
 					RowID = "14"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -938,16 +909,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "16"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1000,16 +965,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "18"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1062,16 +1021,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "20"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1124,16 +1077,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "22"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1186,16 +1133,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "24"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1248,16 +1189,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "26"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1310,16 +1245,10 @@
 					<Cell>
 						
 					</Cell>
-					<Cell>
-						
-					</Cell>
 				</Row>
 				<Row
 					RowID = "28"
 					IsSelected = "0">
-					<Cell>
-						
-					</Cell>
 					<Cell>
 						
 					</Cell>
@@ -1350,7 +1279,7 @@
 		<Element
 			CID = "303843712"
 			Type = "Bitmap"
-			X = "957"
+			X = "926"
 			Y = "279"
 			Width = "15"
 			Height = "15"
@@ -1374,7 +1303,7 @@
 		<Element
 			CID = "1183069046"
 			Type = "Bitmap"
-			X = "1007"
+			X = "1000"
 			Y = "278"
 			Width = "21"
 			Height = "17"
@@ -1398,8 +1327,8 @@
 		<Element
 			CID = "407511720"
 			Type = "ComponentThumbnail"
-			X = "1270"
-			Y = "157"
+			X = "1274"
+			Y = "139"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -1424,7 +1353,7 @@
 		<Element
 			CID = "273642435"
 			Type = "Icon"
-			X = "935"
+			X = "904"
 			Y = "278"
 			Width = "16"
 			Height = "16"
@@ -1452,7 +1381,7 @@
 		<Element
 			CID = "273614556"
 			Type = "Bitmap"
-			X = "914"
+			X = "883"
 			Y = "280"
 			Width = "11"
 			Height = "12"
@@ -1570,9 +1499,9 @@
 			UseDataTable = "0"
 			TableName = ""
 			BackgroundColour = "255,255,255,0,6"
-			FileID = "DC4651D7-EC86-42B2-A1AD5C5B74383FCA"
+			FileID = "64A0C6A4-B504-48B1-85D8D3A73B5DE40C"
 			RootPath = "$Container"
-			Filename = "1.2.CapNhatNguoiDung.gui"
+			Filename = "1.1.TaoNguoiDung.gui"
 			Background = "Transparent"
 			HorzAlign = "Left"
 			VertAlign = "Top"
@@ -1586,230 +1515,10 @@
 			SnapScrolling = "0"
 			AnimateSnapping = "0"/>
 		<Element
-			CID = "1714963696"
-			Type = "Bitmap"
-			X = "957"
-			Y = "305"
-			Width = "15"
-			Height = "15"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "6432B0F7-8C91-4A1C-9360BF8FF89AF381"
-			RootPath = "$Container"
-			Filename = "..\..\Images\5.review.jpg"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1714959108"
-			Type = "Bitmap"
-			X = "1006"
-			Y = "304"
-			Width = "21"
-			Height = "17"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "AE027BFA-966B-4F3C-A705039848A4EB66"
-			RootPath = "$Container"
-			Filename = "..\..\Images\reset_password.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1714963243"
-			Type = "Icon"
-			X = "934"
-			Y = "304"
-			Width = "16"
-			Height = "16"
-			Flags = "3"
-			UseDataTable = "0"
-			TableName = ""
-			RootPath = "$Application"
-			Filename = "Icons\Miscellaneous\ConfirmCross.ico"
-			IconIndex = "0"
-			IsDisabled = "0"/>
-		<Element
-			CID = "1714955012"
-			Type = "Bitmap"
-			X = "913"
-			Y = "306"
-			Width = "11"
-			Height = "12"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "46CA19E8-B767-4E0D-82D1B52E65ACB583"
-			RootPath = "$Container"
-			Filename = "..\..\Images\3.Modify.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1714959426"
-			Type = "Bitmap"
-			X = "957"
-			Y = "331"
-			Width = "15"
-			Height = "15"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "6432B0F7-8C91-4A1C-9360BF8FF89AF381"
-			RootPath = "$Container"
-			Filename = "..\..\Images\5.review.jpg"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1714948378"
-			Type = "Bitmap"
-			X = "1006"
-			Y = "330"
-			Width = "21"
-			Height = "17"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "AE027BFA-966B-4F3C-A705039848A4EB66"
-			RootPath = "$Container"
-			Filename = "..\..\Images\reset_password.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "1714970636"
-			Type = "Icon"
-			X = "934"
-			Y = "330"
-			Width = "16"
-			Height = "16"
-			Flags = "3"
-			UseDataTable = "0"
-			TableName = ""
-			RootPath = "$Application"
-			Filename = "Icons\Miscellaneous\ConfirmCross.ico"
-			IconIndex = "0"
-			IsDisabled = "0"/>
-		<Element
-			CID = "1714965816"
-			Type = "Bitmap"
-			X = "913"
-			Y = "332"
-			Width = "11"
-			Height = "12"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "46CA19E8-B767-4E0D-82D1B52E65ACB583"
-			RootPath = "$Container"
-			Filename = "..\..\Images\3.Modify.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
 			CID = "830811650"
 			Type = "Bitmap"
-			X = "982"
+			X = "951"
 			Y = "277"
-			Width = "16"
-			Height = "16"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "09DA496E-FCD9-4854-8F4EB5592E3B95F1"
-			RootPath = "$Container"
-			Filename = "..\..\Images\home.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "107234222"
-			Type = "Bitmap"
-			X = "983"
-			Y = "304"
-			Width = "16"
-			Height = "16"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FileID = "09DA496E-FCD9-4854-8F4EB5592E3B95F1"
-			RootPath = "$Container"
-			Filename = "..\..\Images\home.png"
-			Placement = "Stretch"
-			HorzAlign = "Left"
-			VertAlign = "Top"
-			ClipLeft = "0"
-			ClipRight = "0"
-			ClipTop = "0"
-			ClipBottom = "0"
-			SliceLeft = "0"
-			SliceRight = "0"
-			SliceTop = "0"
-			SliceBottom = "0"/>
-		<Element
-			CID = "107217785"
-			Type = "Bitmap"
-			X = "983"
-			Y = "328"
 			Width = "16"
 			Height = "16"
 			Flags = "0"
@@ -1832,8 +1541,8 @@
 		<Element
 			CID = "107229353"
 			Type = "ComponentThumbnail"
-			X = "1182"
-			Y = "308"
+			X = "1150"
+			Y = "364"
 			Width = "120"
 			Height = "120"
 			Flags = "3"
@@ -1855,6 +1564,324 @@
 			UseInertia = "0"
 			SnapScrolling = "0"
 			AnimateSnapping = "0"/>
+		<Element
+			CID = "153577941"
+			Type = "Bitmap"
+			X = "972"
+			Y = "276"
+			Width = "23"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "C4AE2863-C744-46A4-8EFB132CA4055F52"
+			RootPath = "$Container"
+			Filename = "..\..\Images\users.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467614207"
+			Type = "ComponentThumbnail"
+			X = "1307"
+			Y = "365"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "356FB7F2-CE7A-40CD-BFA787C9D8C6669D"
+			RootPath = "$Container"
+			Filename = "2.2.GanDoiTac.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "467610006"
+			Type = "Bitmap"
+			X = "926"
+			Y = "305"
+			Width = "15"
+			Height = "15"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "6432B0F7-8C91-4A1C-9360BF8FF89AF381"
+			RootPath = "$Container"
+			Filename = "..\..\Images\5.review.jpg"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467631453"
+			Type = "Bitmap"
+			X = "1000"
+			Y = "304"
+			Width = "21"
+			Height = "17"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "AE027BFA-966B-4F3C-A705039848A4EB66"
+			RootPath = "$Container"
+			Filename = "..\..\Images\reset_password.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467615059"
+			Type = "Icon"
+			X = "904"
+			Y = "304"
+			Width = "16"
+			Height = "16"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			RootPath = "$Application"
+			Filename = "Icons\Miscellaneous\ConfirmCross.ico"
+			IconIndex = "0"
+			IsDisabled = "0"/>
+		<Element
+			CID = "467608254"
+			Type = "Bitmap"
+			X = "883"
+			Y = "306"
+			Width = "11"
+			Height = "12"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "46CA19E8-B767-4E0D-82D1B52E65ACB583"
+			RootPath = "$Container"
+			Filename = "..\..\Images\3.Modify.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467614986"
+			Type = "Bitmap"
+			X = "951"
+			Y = "303"
+			Width = "16"
+			Height = "16"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "09DA496E-FCD9-4854-8F4EB5592E3B95F1"
+			RootPath = "$Container"
+			Filename = "..\..\Images\home.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467607342"
+			Type = "Bitmap"
+			X = "972"
+			Y = "302"
+			Width = "23"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "C4AE2863-C744-46A4-8EFB132CA4055F52"
+			RootPath = "$Container"
+			Filename = "..\..\Images\users.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467628946"
+			Type = "Bitmap"
+			X = "925"
+			Y = "330"
+			Width = "15"
+			Height = "15"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "6432B0F7-8C91-4A1C-9360BF8FF89AF381"
+			RootPath = "$Container"
+			Filename = "..\..\Images\5.review.jpg"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467606567"
+			Type = "Bitmap"
+			X = "999"
+			Y = "329"
+			Width = "21"
+			Height = "17"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "AE027BFA-966B-4F3C-A705039848A4EB66"
+			RootPath = "$Container"
+			Filename = "..\..\Images\reset_password.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467611287"
+			Type = "Icon"
+			X = "903"
+			Y = "329"
+			Width = "16"
+			Height = "16"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			RootPath = "$Application"
+			Filename = "Icons\Miscellaneous\ConfirmCross.ico"
+			IconIndex = "0"
+			IsDisabled = "0"/>
+		<Element
+			CID = "467606126"
+			Type = "Bitmap"
+			X = "882"
+			Y = "331"
+			Width = "11"
+			Height = "12"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "46CA19E8-B767-4E0D-82D1B52E65ACB583"
+			RootPath = "$Container"
+			Filename = "..\..\Images\3.Modify.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467621478"
+			Type = "Bitmap"
+			X = "950"
+			Y = "328"
+			Width = "16"
+			Height = "16"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "09DA496E-FCD9-4854-8F4EB5592E3B95F1"
+			RootPath = "$Container"
+			Filename = "..\..\Images\home.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
+		<Element
+			CID = "467609904"
+			Type = "Bitmap"
+			X = "971"
+			Y = "327"
+			Width = "23"
+			Height = "21"
+			Flags = "0"
+			UseDataTable = "0"
+			TableName = ""
+			FileID = "C4AE2863-C744-46A4-8EFB132CA4055F52"
+			RootPath = "$Container"
+			Filename = "..\..\Images\users.png"
+			Placement = "Stretch"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ClipLeft = "0"
+			ClipRight = "0"
+			ClipTop = "0"
+			ClipBottom = "0"
+			SliceLeft = "0"
+			SliceRight = "0"
+			SliceTop = "0"
+			SliceBottom = "0"/>
 	</Elements>
 	<Connections
 		CID = "2">
@@ -1944,6 +1971,17 @@
 			SourceSubItemID = ""
 			SourceRefID = "830811650"
 			TargetRefID = "107229353"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "467619119"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "153577941"
+			TargetRefID = "467614207"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>

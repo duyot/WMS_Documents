@@ -1,0 +1,211 @@
+<Screen
+	CID = "1"
+	AppID = "2"
+	AppVer = "4.6.155.0"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "6"
+	RepresentativeRefID = "105144190"
+	UseDefRepresentative = "0">
+	<Elements
+		CID = "1">
+		<Element
+			CID = "105144190"
+			Type = "MenuPopup"
+			X = "6"
+			Y = "172"
+			Width = "265"
+			Height = "126"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			NextItemID = "53"
+			LeftMargin = "20"
+			RightMargin = "16"
+			Mirror = "0">
+			<MenuPopupItem
+				ItemID = "43"
+				Type = "CommandOption"
+				Item = "1. Báo cáo vị trí lưu kho"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "44"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "47"
+				Type = "CommandOption"
+				Item = "2. Báo cáo lịch sử xuất/nhập hàng hóa"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "49"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "48"
+				Type = "CommandOption"
+				Item = "3. Báo cáo hàng đồng bộ"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "50"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "52"
+				Type = "CommandOption"
+				Item = "4. Báo cáo hàng tồn lâu"
+				Hotkey = ""
+				IsDisabled = "0"/>
+			<MenuPopupItem
+				ItemID = "51"
+				Type = "Separator"
+				Item = ""
+				Hotkey = ""
+				IsDisabled = "0"/>
+		</Element>
+		<Element
+			CID = "2074622039"
+			Type = "ComponentThumbnail"
+			X = "169"
+			Y = "-94"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "6CE3260D-5FBE-42D3-B0BFD98F6AC81294"
+			RootPath = "$Container"
+			Filename = "..\..\BaoCao\1.1.BaoCaoViTri.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "125192029"
+			Type = "ComponentThumbnail"
+			X = "347"
+			Y = "-55"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "AA42F01B-A373-404A-BC6310CCCA2797DA"
+			RootPath = "$Container"
+			Filename = "..\..\BaoCao\1.2.LichSuXuatNhap.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "1915892733"
+			Type = "ComponentThumbnail"
+			X = "350"
+			Y = "169"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "1E940DD0-0B96-4EA1-BD217F1B86FBCD95"
+			RootPath = "$Container"
+			Filename = "..\..\BaoCao\1.3.HangDongBo.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+	</Elements>
+	<Connections
+		CID = "2">
+		<Connection
+			CID = "2074620149"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "43"
+			SourceRefID = "105144190"
+			TargetRefID = "2074622039"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "125173829"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "47"
+			SourceRefID = "105144190"
+			TargetRefID = "125192029"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1915903135"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "48"
+			SourceRefID = "105144190"
+			TargetRefID = "1915892733"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Groups
+		CID = "3"/>
+	<SelectionGroups
+		CID = "4"/>
+	<Notes
+		CID = "5">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

@@ -86,7 +86,7 @@
 			X = "-178"
 			Y = "47"
 			Width = "1035"
-			Height = "119"
+			Height = "80"
 			Flags = "0"
 			UseDataTable = "0"
 			TableName = ""
@@ -102,8 +102,8 @@
 		<Element
 			CID = "191846698"
 			Type = "TextButton"
-			X = "310"
-			Y = "131"
+			X = "305"
+			Y = "140"
 			Width = "75"
 			Height = "23"
 			Flags = "0"
@@ -126,7 +126,7 @@
 			CID = "1091567678"
 			Type = "StaticText"
 			X = "361"
-			Y = "101"
+			Y = "90"
 			Width = "60"
 			Height = "21"
 			Flags = "0"
@@ -213,7 +213,7 @@
 			RowHeight = "26"
 			FirstVisibleRow = "0"
 			FixedColumns = "0"
-			SortedColumn = "3"
+			SortedColumn = "2"
 			ValueColumn = "0"
 			SortedBlendFactor = "0.000000"
 			ColumnSort = "Ascending"
@@ -241,27 +241,10 @@
 					OddBackgroundColour = "255,255,255,0,6"
 					EvenBackgroundColour = "255,255,255,0,6"
 					TextColour = "0,0,0,0,9"
-					ColumnID = "10"
-					Heading = "Đơn vị sử dụng"
-					VisibleCondition = ""
-					Width = "245"
-					HeaderMargin = "0"
-					CellMargin = "0"
-					HasCustomOddBgColour = "0"
-					HasCustomEvenBgColour = "0"
-					HasCustomTextColour = "0"
-					HighlightSelections = "1"
-					Type = "Text"
-					HeadingAlignment = "Centre"
-					CellAlignment = "Left"/>
-				<ColumnItem
-					OddBackgroundColour = "255,255,255,0,6"
-					EvenBackgroundColour = "255,255,255,0,6"
-					TextColour = "0,0,0,0,9"
 					ColumnID = "3"
 					Heading = "Tên "
 					VisibleCondition = ""
-					Width = "181"
+					Width = "283"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -295,7 +278,7 @@
 					ColumnID = "5"
 					Heading = "Trạng thái"
 					VisibleCondition = ""
-					Width = "114"
+					Width = "251"
 					HeaderMargin = "0"
 					CellMargin = "0"
 					HasCustomOddBgColour = "0"
@@ -331,9 +314,6 @@
 						1
 					</Cell>
 					<Cell>
-						Công ty Điện máy Trần Anh
-					</Cell>
-					<Cell>
 						Điện tử điện lạnh
 					</Cell>
 					<Cell>
@@ -353,9 +333,6 @@
 						2
 					</Cell>
 					<Cell>
-						Công ty Điện máy Trần Anh
-					</Cell>
-					<Cell>
 						Máy tính
 					</Cell>
 					<Cell>
@@ -373,9 +350,6 @@
 					IsSelected = "0">
 					<Cell>
 						3
-					</Cell>
-					<Cell>
-						Công ty Cổ phần Thế Giới Di Động
 					</Cell>
 					<Cell>
 						Điện thoại
@@ -478,7 +452,7 @@
 			CID = "557721586"
 			Type = "StaticText"
 			X = "-162"
-			Y = "103"
+			Y = "92"
 			Width = "54"
 			Height = "21"
 			Flags = "0"
@@ -499,7 +473,7 @@
 			CID = "557729518"
 			Type = "EditBox"
 			X = "-82"
-			Y = "103"
+			Y = "92"
 			Width = "390"
 			Height = "21"
 			Flags = "2"
@@ -530,31 +504,10 @@
 			DisabledFillColour = "236,233,216,0,16"
 			BorderColour = "164,185,127,0,12"/>
 		<Element
-			CID = "283261939"
-			Type = "StaticText"
-			X = "-162"
-			Y = "71"
-			Width = "100"
-			Height = "24"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			FillColour = "236,233,216,0,16"
-			TextColour = "0,0,0,0,19"
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "Đơn vị sử dụng"
-			IsDisabled = "0"
-			IsHyperlink = "0"
-			Fill = "None"
-			HorzAlign = "Left"
-			VertAlign = "Centre"/>
-		<Element
 			CID = "283271899"
 			Type = "NavigationSwitchPlaceholder"
 			X = "-69"
-			Y = "102"
+			Y = "91"
 			Width = "16"
 			Height = "16"
 			Flags = "3"
@@ -562,36 +515,6 @@
 			TableName = ""
 			Alignment = "TopLeft"
 			AlignTo = "AnchorBox"/>
-		<Element
-			CID = "1468759105"
-			Type = "ComboBox"
-			X = "-82"
-			Y = "71"
-			Width = "390"
-			Height = "21"
-			Flags = "0"
-			UseDataTable = "0"
-			TableName = ""
-			Typeface = ""
-			FontAttributes = "0"
-			TextSize = "Normal"
-			Text = "---Chọn----"
-			IsDisabled = "0"
-			IsEditable = "0"
-			IsFlat = "0"
-			Mirror = "0"
-			CustomStyle = "0"
-			HorzAlign = "Left"
-			OverrideTextColour = "0"
-			OverrideDisabledTextColour = "0"
-			OverrideFillColour = "0"
-			OverrideDisabledFillColour = "0"
-			OverrideBorderColour = "0"
-			TextColour = "0,0,0,0,9"
-			DisabledTextColour = "161,161,146,0,18"
-			FillColour = "240,240,255,0,0"
-			DisabledFillColour = "236,233,216,0,16"
-			BorderColour = "192,192,255,0,0"/>
 		<Element
 			CID = "1468758852"
 			Type = "ListBox"
@@ -1571,7 +1494,7 @@
 			CID = "898719882"
 			Type = "RadioButton"
 			X = "461"
-			Y = "100"
+			Y = "89"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1589,7 +1512,7 @@
 			CID = "898714265"
 			Type = "RadioButton"
 			X = "550"
-			Y = "100"
+			Y = "89"
 			Width = "80"
 			Height = "21"
 			Flags = "0"
@@ -1691,17 +1614,6 @@
 			SourceSubItemID = ""
 			SourceRefID = "1491228753"
 			TargetRefID = "1491216291"
-			ConLineWidth = "2"
-			ConLineColour = "0,0,0,0,0"/>
-		<Connection
-			CID = "1683968769"
-			Layer = "DesignElements"
-			Trigger = "LeftClick"
-			Type = "Navigation"
-			SubType = "ModalSelector"
-			SourceSubItemID = ""
-			SourceRefID = "1468759105"
-			TargetRefID = "1468758852"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 		<Connection

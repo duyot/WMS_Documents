@@ -96,7 +96,7 @@
 			Typeface = ""
 			FontAttributes = "0"
 			TextSize = "Normal"
-			NextItemID = "23"
+			NextItemID = "24"
 			LeftMargin = "0"
 			Mirror = "0">
 			<MenuBarItem
@@ -120,6 +120,9 @@
 			<MenuBarItem
 				Item = "Bán hàng"
 				ItemID = "22"/>
+			<MenuBarItem
+				Item = "Báo cáo"
+				ItemID = "23"/>
 		</Element>
 		<Element
 			CID = "1080379116"
@@ -306,7 +309,7 @@
 			X = "609"
 			Y = "-152"
 			Width = "180"
-			Height = "96"
+			Height = "126"
 			Flags = "3"
 			UseDataTable = "0"
 			TableName = ""
@@ -348,6 +351,32 @@
 			StepSizeHorz = "4"
 			StepSizeVert = "4"
 			MaintainSize = "1"
+			AllowDragScrolling = "0"
+			UseInertia = "0"
+			SnapScrolling = "0"
+			AnimateSnapping = "0"/>
+		<Element
+			CID = "1506542932"
+			Type = "Component"
+			X = "820"
+			Y = "-136"
+			Width = "265"
+			Height = "126"
+			Flags = "3"
+			UseDataTable = "0"
+			TableName = ""
+			BackgroundColour = "255,255,255,0,6"
+			FileID = "4F26E3DC-4480-472B-B53AF6E5A40B139C"
+			RootPath = "$Container"
+			Filename = "Menu\menu.BaoCao.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			ScrollBarHorz = "Auto"
+			ScrollBarVert = "Auto"
+			StepSizeHorz = "4"
+			StepSizeVert = "4"
+			MaintainSize = "0"
 			AllowDragScrolling = "0"
 			UseInertia = "0"
 			SnapScrolling = "0"
@@ -430,6 +459,17 @@
 			SourceSubItemID = "22"
 			SourceRefID = "647265493"
 			TargetRefID = "490762487"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1507599736"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = "23"
+			SourceRefID = "647265493"
+			TargetRefID = "1506542932"
 			ConLineWidth = "2"
 			ConLineColour = "0,0,0,0,0"/>
 	</Connections>
